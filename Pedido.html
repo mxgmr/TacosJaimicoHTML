@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <form action="">
+    <h1>Aqui se hace el pedido</h1>
+    <label for="Nombre">Ingresa tu nombre</label><br>
+    <input type="text" id="Nombre" placeholder="Nombre ">
+
+    <br><br>
+
+    <label for="Mesa">Tu mesa es</label><br>
+    <input type="number" name="mesa" id="mesa" placeholder="1">
+
+    <p>¿Para aquí o para llevar?</p>
+    <input type="radio" id="aqui" name="aquiollevar" value="aqui">
+    <label for="aqui"></label>Aqui<br>
+    <input type="radio" id="llevar" name="aquiollevar" value="llevar">
+    <label for="llevar"></label>Levar<br>
+
+    <p>¿Qué tacos y cuantos quieres?</p>
+    <input type="checkbox" name="Asada" id="Asada" value="asada">
+    <label for="asada">Asada</label>
+    <input type="number" name="AsadaCuantos" id="AsadaCuantos" placeholder="¿Cuantos?">
+
+    <br>
+
+    <input type="checkbox" name="Ñema" id="Ñema" value="Ñema">
+    <label for="Ñema">Ñema</label>
+    <input type="number" name="ÑemaCuantos" id="ÑemaCuantos" placeholder="¿Cuantos?">
+
+    <p>¿Para tomar?</p>
+    <select name="refrescos" id="refrescos">
+
+        <option value="Coca cola">Coca cola</option>
+        <option value="Horchata">Horchata</option>
+        <option value="Sangria">Sangria</option>
+        <option value="Sprite">Sprite</option>
+    </select>
+
+    <br>
+
+    <input type="reset" >
+    <input type="submit">
+    <br><br>
+    </form>
+
+</body>
+</html>
